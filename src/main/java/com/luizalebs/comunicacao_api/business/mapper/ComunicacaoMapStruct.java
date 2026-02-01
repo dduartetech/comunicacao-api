@@ -9,6 +9,8 @@ import org.mapstruct.Mapping;
 @Mapper(componentModel = "spring")
 public interface ComunicacaoMapStruct {
 
+    @Mapping(source = "dataHoraEnvio", target = "dataHoraenvio")
     ComunicacaoEntity paraComunicacaoEntity(ComunicacaoInDTO comunicacaoInDTO);
+    @Mapping(source = "dataHoraenvio", target = "dataHoraEnvio")
     ComunicacaoOutDTO paraComunicacaoDTO(ComunicacaoEntity comunicacaoEntity);
 }
