@@ -1,6 +1,6 @@
 ## Endpoints da Aplicação
 
-Abaixo, detalhamos os contratos de entrada e saída para cada operação da API:
+Abaixo, detalho os contratos de entrada e saída para cada operação da API:
 
 ### Agendamento
 * **`POST`**
