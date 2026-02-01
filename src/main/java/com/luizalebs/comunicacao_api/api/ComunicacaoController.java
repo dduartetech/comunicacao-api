@@ -2,6 +2,7 @@ package com.luizalebs.comunicacao_api.api;
 
 import com.luizalebs.comunicacao_api.api.dto.ComunicacaoInDTO;
 import com.luizalebs.comunicacao_api.api.dto.ComunicacaoOutDTO;
+import com.luizalebs.comunicacao_api.api.dto.TarefasDTO;
 import com.luizalebs.comunicacao_api.business.service.ComunicacaoService;
 
 import io.swagger.v3.oas.annotations.Operation;
@@ -45,5 +46,11 @@ public class ComunicacaoController {
     @ApiResponse(responseCode = "500", description = "Erro de servidor")
     public ResponseEntity<ComunicacaoOutDTO> cancelarStatus(@RequestParam String emailDestinatario) {
         return ResponseEntity.ok(service.alterarStatusComunicacao(emailDestinatario));
+    }
+
+    @PostMapping("/notificação")
+    public ResponseEntity<Void> enviaEmail(@RequestBody TarefasDTO tarefasDTO) {
+         service.enviaEmail(tarefasDTO);
+         return ResponseEntity.ok().build();
     }
 }
