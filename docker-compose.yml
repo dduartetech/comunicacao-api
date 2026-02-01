@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  db-postgres:
+    image: postgres:15
+    container_name: db-postgres
+    restart: always
+    environment:
+      POSTGRES_DB: db_comunicacao
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+    ports:
+      - "5432:5432"
+
+  api-comunicacao:
+    build: .
+    container_name: api-comunicacao
+    ports:
+      - "8085:8085"
+    depends_on:
+      - db-postgres
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://db-postgres:5432/db_comunicacao
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: 123
+      NOTIFICACAO_URL: http://notificacao-service:8082/email

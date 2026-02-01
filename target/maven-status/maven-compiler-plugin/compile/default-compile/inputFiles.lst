@@ -1,0 +1,15 @@
+C:\Users\diego\Javanauta\Desafio Técnicos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\api\ComunicacaoController.java
+C:\Users\diego\Javanauta\Desafio Técnicos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\api\dto\ComunicacaoInDTO.java
+C:\Users\diego\Javanauta\Desafio Técnicos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\api\dto\ComunicacaoOutDTO.java
+C:\Users\diego\Javanauta\Desafio Técnicos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\api\dto\TarefasDTO.java
+C:\Users\diego\Javanauta\Desafio Técnicos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\api\GlobalExceptionHandler.java
+C:\Users\diego\Javanauta\Desafio Técnicos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\business\converter\ComunicacaoConverter.java
+C:\Users\diego\Javanauta\Desafio Técnicos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\business\mapper\ComunicacaoMapStruct.java
+C:\Users\diego\Javanauta\Desafio Técnicos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\business\service\ComunicacaoService.java
+C:\Users\diego\Javanauta\Desafio Técnicos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\ComunicacaoApiApplication.java
+C:\Users\diego\Javanauta\Desafio Técnicos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\infraestructure\client\NotificacaoClient.java
+C:\Users\diego\Javanauta\Desafio Técnicos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\infraestructure\entities\ComunicacaoEntity.java
+C:\Users\diego\Javanauta\Desafio Técnicos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\infraestructure\enums\ModoEnvioEnum.java
+C:\Users\diego\Javanauta\Desafio Técnicos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\infraestructure\enums\StatusEnvioEnum.java
+C:\Users\diego\Javanauta\Desafio Técnicos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\infraestructure\enums\StatusNotificacaoEnum.java
+C:\Users\diego\Javanauta\Desafio Técnicos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\infraestructure\repositories\ComunicacaoRepository.java
