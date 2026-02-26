@@ -1,4 +1,4 @@
-package com.luizalebs.comunicacao_api.api;
+package com.luizalebs.comunicacao_api.api.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
